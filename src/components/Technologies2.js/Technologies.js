@@ -60,112 +60,170 @@ export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
       <h1>Technologies</h1>
-      <p className="fplon">
+      <p
+        className="fplon"
+        style={{
+          paddingLeft: "16px",
+          paddingRight: "16px",
+          paddingTop: "32px",
+        }}
+      >
         I've worked with a range of technologies in the web development world.
         From backend to end design.
       </p>
-      <div style={{ display: "flex", width: "100%" }}>
-        <div style={{ width: "30%", textAlign: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          width: "100%",
+          height: "50%",
+          justifyContent: "space-evenly",
+        }}
+      >
+        <div
+          className="skillContainer"
+          style={{
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly",
+          }}
+        >
           <div>
             {/* <DiReact style={{ height: "15px", width: "15px" }} /> */}
           </div>
 
-          <div className="titleStyle">FrontEnd React</div>
-          <div className="skillsStyle">
-            Experience with
-            <br />
-            <span style={{ width: "90px" }}>React</span>
-            <img
-              alt="Nothing"
-              src="/assets/reactLogo.png"
-              height="20px"
-              width="20px"
-              style={{ marginLeft: "20px" }}
-            />
-          </div>
+          <div className="titleStyle">FrontEnd</div>
+          <div
+            style={{
+              height: "100%",
+            }}
+          >
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>React</span>
+              <img
+                className="skillIcon"
+                alt="Nothing"
+                src="/assets/reactLogo.png"
+                height="20px"
+                width="20px"
+              />
+            </div>
 
-          <div className="skillsStyle">
-            <span style={{ width: "90px" }}>VUE</span>
-            <img
-              alt="Nothing"
-              src="/assets/vueLogo.png"
-              height="20px"
-              width="20px"
-              style={{ marginLeft: "20px" }}
-            />
-          </div>
-          <div className="skillsStyle">
-            <span style={{ width: "90px" }}>JavaScript</span>
-            <img
-              alt="Nothing"
-              src="/assets/javascriptLogo.png"
-              height="20px"
-              width="20px"
-              style={{ marginLeft: "20px" }}
-            />
-          </div>
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>VUE</span>
+              <img
+                className="skillIcon"
+                alt="Nothing"
+                src="/assets/vueLogo.png"
+                height="20px"
+                width="20px"
+              />
+            </div>
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>JavaScript</span>
+              <img
+                className="skillIcon"
+                alt="Nothing"
+                src="/assets/javascriptLogo.png"
+                height="20px"
+                width="20px"
+              />
+            </div>
 
-          <div className="skillsStyle">
-            <span style={{ width: "90px" }}>CSS</span>
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>CSS</span>
 
-            <img
-              alt="Nothing"
-              src="/assets/cssLogo.png"
-              height="20px"
-              width="20px"
-              style={{ marginLeft: "20px" }}
-            />
-          </div>
-        </div>
-        <div style={{ width: "30%", textAlign: "center" }}>
-          <div>{/* <DiFirebase /> */}</div>
-
-          <div className="titleStyle">Back end </div>
-          <div className="skillsStyle">
-            <span style={{ width: "90px" }}>Node JS</span>
-
-            <img
-              alt="Nothing"
-              src="/assets/nodejsLogo.png"
-              height="20px"
-              width="30px"
-              style={{ marginLeft: "20px" }}
-            />
-          </div>
-          <div className="skillsStyle">
-            <span style={{ width: "90px" }}>Laravel</span>
-
-            <img
-              alt="Nothing"
-              src="/assets/LaravelLogo.png"
-              height="20px"
-              width="30px"
-              style={{ marginLeft: "20px" }}
-            />
-          </div>
-
-          <div className="skillsStyle">
-            <span style={{ width: "90px" }}>Python</span>
-
-            <img
-              alt="Nothing"
-              src="/assets/pythonLogo.png"
-              height="20px"
-              width="30px"
-              style={{ marginLeft: "20px" }}
-            />
+              <img
+                className="skillIcon"
+                alt="Nothing"
+                src="/assets/cssLogo.png"
+                height="20px"
+                width="20px"
+              />
+            </div>
           </div>
         </div>
         <div
+          className="skillContainer"
+          style={{
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <div>{/* <DiFirebase /> */}</div>
+
+          <div className="titleStyle">Backend </div>
+          <div
+            style={{
+              height: "100%",
+            }}
+          >
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>Node</span>
+
+              <img
+                className="skillIcon"
+                alt="Nothing"
+                src="/assets/nodejsLogo.png"
+                height="20px"
+                width="30px"
+              />
+            </div>
+
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>Laravel</span>
+
+              <img
+                className="skillIcon"
+                alt="Nothing"
+                src="/assets/LaravelLogo.png"
+                height="20px"
+                width="30px"
+              />
+            </div>
+
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>Python</span>
+
+              <img
+                className="skillIcon"
+                alt="Nothing"
+                src="/assets/pythonLogo.png"
+                height="20px"
+                width="30px"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="skillContainer"
           //className="titleStyle"
-          style={{ width: "30%", textAlign: "center" }}
+          style={{
+            textAlign: "center",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-evenly",
+          }}
         >
           <div>{/* <DiZend /> */}</div>
           <div className="titleStyle">Mobile</div>
-          <div className="skillsStyle">
-            Experience with
-            <br />
-            Flutter
+          <div
+            style={{
+              height: "100%",
+            }}
+          >
+            <div className="skillsStyle">
+              <span style={{ width: "90px" }}>Flutter</span>
+              <img
+                className="skillIcon"
+                src="/assets/flutterLogo.png"
+                alt="Logo de flutter"
+                height="20px"
+                width="20px"
+              />
+            </div>
           </div>
         </div>
       </div>

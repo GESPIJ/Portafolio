@@ -4,7 +4,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Works from "./components/works/Works";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
-//import Technologies2 from "./components/Technologies/Technologies";
+import Technologies2 from "./components/Technologies2.js/Technologies";
 //import Technologies from "./components/Technologies/Technologies";
 import "./app.scss";
 import { useState } from "react";
@@ -21,7 +21,7 @@ function App() {
         <Portfolio />
         {/* <Works /> */}
         {/* <Technologies /> */}
-        {/* <Technologies2 /> */}
+        <Technologies2 />
         <Testimonials />
         <Contact />
       </div>

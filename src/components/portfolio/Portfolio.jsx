@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
+//import styles from "./portfolio.module.scss";
 import {
   featuredPortfolio,
   webPortfolio,

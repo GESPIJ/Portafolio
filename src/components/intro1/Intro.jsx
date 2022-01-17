@@ -20,7 +20,7 @@ export default function Intro() {
         <div className="imgContainer">
           <img
             //src="assets/man.png"
-            src="assets/Foto_Graduacion.jpg"
+            src="/assets/Foto_Graduacion.jpg"
             //height="200"
             //width="200"
             alt=""
@@ -36,7 +36,7 @@ export default function Intro() {
           </h3>
         </div>
         <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
+          <img src="/assets/down.png" alt="" />
         </a>
       </div>
     </div>
