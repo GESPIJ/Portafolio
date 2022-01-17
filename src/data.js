@@ -4,7 +4,7 @@ export const featuredPortfolio = [
     // title: "Social Media App",
     title: "Market Place",
     //img: "/assets/bodegon2.JPG",
-    img: "/assets/bodegon_resized.jpg",
+    img: "/assets/bodegon_resized.JPG",
     // img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
     link: "https://marketplace-liart.vercel.app/",
   },
@@ -17,7 +17,7 @@ export const featuredPortfolio = [
     descripcion:
       "Proyecto para detectar y predecir las fugas en oleoductos petroleros",
     //img: "/assets/PipelinePhoto.jpg",
-    img: "/assets/PipelinePhoto.jpg",
+    img: "/assets/PipelinePhoto.JPG",
   },
   // {
   //   id: 3,
@@ -29,7 +29,7 @@ export const featuredPortfolio = [
     id: 3,
     //title: "E-commerce Web Design",
     title: "Gestión y manejo de empresas",
-    img: "/assets/AMIM3.JPEG",
+    img: "/assets/AMIM3.jpeg",
     //img: "/assets/LuxTopper.JPG",
   },
   {
