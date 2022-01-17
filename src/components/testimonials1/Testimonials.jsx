@@ -4,28 +4,28 @@ export default function Testimonials() {
   const data = [
     {
       id: 1,
-      name: "Jose Manuel Borelly",
-      title: "CEO JF2 Soluciones Integrales",
+      name: "Tom Durden",
+      title: "Senior Developer",
       img: "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/twitter.png",
-      desc: "Compromiso y entrega no solo para cumplir con los deadlines, sino que muestró interés genuino en los objetivos de la propia empresa",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
     },
     {
       id: 2,
-      name: "Carlos Rivero",
-      title: "Gerente de Programación Intelcon",
+      name: "Alex Kalinski",
+      title: "Co-Founder of DELKA",
       img: "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/youtube.png",
-      desc: "Trabajar con personas como Greg te termina motivandome inevitablemente a dar lo mejor de ti y a buscar expandirte un poco más cada día a nivel profesional",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
       featured: true,
     },
     {
       id: 3,
-      name: "Daniel Rodriguez",
+      name: "Martin Harold",
       title: "CEO of ALBI",
       img: "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
       icon: "assets/linkedin.png",
-      desc: "Excelente profesional, pero ante todo un gran ser humano que siempre esta dispuesto a escuchar y colaborar en lo que pueda con su equipo",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
     },
   ];
   return (
